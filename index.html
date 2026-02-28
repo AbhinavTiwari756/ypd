@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YellowPlanet Digital</title>
+    <link rel="stylesheet" href="style.css">
+
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+  </head>
+<body>
+
+                                        <!--header section-->
+
+<header data-aos="fade-down" data-aos-duration="800">
+    <div class="logo">
+      <img src="yellowplanetdigitalbiglogo-removebg-preview.png" alt="Logo">
+      <div>
+        <div class="logo-text">YellowPlanet Digital Services</div>
+        <div class="tagline">Communicate. Collaborate. Create.</div>
+      </div>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">services</a>
+      <a href="pricing.html">Pricing Plans</a>
+      <a href="contact.html" >Contact</a>
+      <button class="get-started">Get Started</button>
+    </nav>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+      <a href="#">Home</a>
+      <a href="#">Product</a>
+      <a href="#">Pricing Plans</a>
+      <a href="#">Contact</a>
+      <button class="get-started">Get Started</button>
+    </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("mobileMenu").classList.toggle("show");
+    }
+  </script>
+
+
+                                        <!-- first section-->
+
+<section class="hero" data-aos="fade-up" data-aos-duration="1000">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Communicate. <br> Collaborate. Create.</h1>
+      <p>YellowPlanet Digital helps businesses thrive online with tailor-made websites that deliver results.</p>
+      <button class="get-started1">🚀Get Started</button>
+    </div>
+    <div class="hero-image">
+      <img src="first_image.png" alt="Illustration">
+    </div>
+  </div>
+</section>
+
+
+
+                                            <!-- curv section-->
+
+<section class="section-yellow" data-aos="fade-right" data-aos-duration="1000">
+  <!-- Wave sits above content -->
+  <div class="wave-top">
+    <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,64 C288,128 576,0 864,64 C1152,128 1440,32 1440,32 L1440,0 L0,0 Z">
+      </path>
+    </svg>
+  </div>
+
+  <div class="section-container">
+    <div class="section-text-left">
+      <h2>With the Right <br> Website, Great <br> Things Can Happen</h2>
+    </div>
+    <div class="section-text-right">
+      <p>
+        We build websites that don’t just look great—they work great. Whether you're a startup or an enterprise, our design-driven approach ensures your goals are met with precision.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+                                            <!--photos section-->
+
+<section class="offer-section" data-aos="fade-up" data-aos-duration="1000">
+  <div class="offer-content">
+    <h2>What We Offer</h2>
+    <p>
+      I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+      Just click “Edit Text” or double click me to add your own content and
+      make changes to the font.
+    </p>
+  </div>
+
+  <div class="cards-container">
+    <div class="card">
+      <img src="website-design-photo.png" alt="Offer 1" /><h2>Website Design & Development</h2>We design responsive, websites tailored for your business. From clean landing pages to full-scale web apps—we bring your ideas to life.
+    </div>
+    <div class="card">
+      <img src="ecommerce-photo.png" alt="Offer 2" /><h2>SEO Optimization</h2>Improve search rankings through on-page, off-page, and technical SEO and indexing for better search rankings.
+    </div>
+    <div class="card">
+      <img src="ui-ux-photo.png" alt="Offer 3" /><h1>Branding & UI/UX</h1>We build visually striking brands and user-friendly interfaces that attract, engage, and convert your visitors into loyal customers.
+    </div>
+    <div class="card">
+      <img src="4th-photo.png" alt="Offer 4" /><h1>Digital Marketing</h1>Launch strategic ad campaigns and boost your online visibility through SEO, PPC, and more.
+    </div>
+    <div class="card">
+      <img src="5th-photo.png" alt="Offer 3" /><h1>eCommerce Store Setup</h1>Launch and scale your online store with secure, fast solutions.
+    </div>
+    <div class="card">
+      <img src="support&main-photo.png" alt="Offer 4" /><h1>Maintenance & Support</h1>Reliable updates, bug fixes, and technical support on demand.
+    </div>
+    <div class="card">
+      <img src="more-photo.png" alt="Offer 4" /><h1>MORE</h1>
+    </div>
+  </div>
+</section>
+
+                                                <!--second section-->
+
+
+<section class="creatives-section" data-aos="fade-left" data-aos-duration="1000">
+  <div class="creatives-container">
+    <div class="creatives-image">
+      <img src="Screenshot 2025-07-05 020939.png" alt="Creative Illustration" />
+    </div>
+    <div class="creatives-text">
+      <h2>Built for Creatives,<br>by Creatives</h2>
+      <p>
+        We understand that design matters. That's why we offer pixel-perfect execution, flexible layouts, and collaborative workflows to give you the freedom to focus on what you do best.
+      </p>
+      <div class="features">
+        <div class="feature"><i class="icon">🔧</i>All-In-One Toolkit</div>
+        <div class="feature"><i class="icon">📁</i>Integrated File Sharing</div>
+        <div class="feature"><i class="icon">🖌️</i>Total Design Freedom</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <script>
+  const elements = document.querySelectorAll('.creatives-text, .creatives-image');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = 1;
+        entry.target.style.animationPlayState = 'running';
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  elements.forEach(el => {
+    el.style.animationPlayState = 'paused';
+    observer.observe(el);
+  });
+</script>  -->
+
+
+
+                                            <!--second wave-->
+
+
+<!-- ✅ industry-section with wave on top -->
+
+<section class="industry-section" data-aos="zoom-in" data-aos-duration="1000">
+
+<div class="custom-shape-divider-top-1751919866">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+
+  <!-- Top Wave 
+  <div class="industry-wave-top">
+    <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+      <path fill="#ffd4ec" d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z"></path>
+    </svg>
+  </div>-->
+
+  <div class="industry-content">
+    <h1 style="font-size: 3rem;">Why Choose Us? </h1>
+    <p>
+      We're not just developers—we're your growth partners. Here's what makes us different:
+    </p>
+    <div class="industry-logos">
+      <div><h3>⚡ Lightning-Fast Load Times</h3>Optimized for speed, ensuring your visitors stay engaged.<br></div><br>
+      <div><h3>🔐 Security You Can Trust</h3>We implement the best practices to keep your data safe.<br></div><br>
+      <div><h3>📊 Analytics Ready</h3>Integrated with Google Analytics and tracking tools from day one.</div><br><br>
+      <div><h3>🔄 Scalable Architecture</h3>From 1 page to 100—your site grows with your business.</div>
+    </div>
+  </div>
+</section>
+
+
+                                                <!--third section-->
+
+<section class="testimonials" data-aos="fade-up" data-aos-duration="1000">
+  <div class="testimonial-card">
+    <div class="testimonial-top">
+      <span></span><span></span><span></span>
+    </div>
+    <p>
+      “I'm a testimonial. Click to edit me and add text that says something nice about
+      you and your services. Let your customers review you and tell their friends how
+      great you are.”
+    </p>
+  </div>
+
+  <div class="testimonial-card">
+    <div class="testimonial-top">
+      <span></span><span></span><span></span>
+    </div>
+    <p>
+      “I'm a testimonial. Clients trust me to provide top-tier service and results. Edit
+      this text to share how much your customers love you.”
+    </p>
+  </div>
+
+  <div class="testimonial-card">
+    <div class="testimonial-top">
+      <span></span><span></span><span></span>
+    </div>
+    <p>
+      “This is a customer review. Add testimonials that reflect the quality and value of
+      your business to gain trust and conversions.”
+    </p>
+  </div>
+
+  <!-- <div class="testimonial-card">
+    <div class="testimonial-top">
+      <span></span><span></span><span></span>
+    </div>
+    <p>
+      “Great support and service! I'm happy to recommend this business. Add your happy
+      customer stories here.”
+    </p>
+  </div> -->
+</section>
+
+
+
+                                              <!--rate card-->
+
+<section class="pricing-section" data-aos="fade-up" data-aos-duration="1000">
+  <h2 class="pricing-title">Explore Our Pricing Options</h2>
+  <div class="pricing-container">
+
+    <div class="pricing-card">
+      <div class="pricing-header">
+      <!--  <span class="ribbon">Best Value</span> -->
+        <h3>Premium</h3>
+        <div class="price">$50</div>
+        <p class="duration">Every month</p>
+        <p class="desc">Use this area to describe one of your memberships.</p>
+        <p class="valid">Valid for 12 months</p>
+        <button class="get-started-btn">Get Started</button>
+      </div>
+      <ul class="benefits">
+        <li>✔ I'm a benefit</li>
+        <li>✔ I'm a benefit</li>
+        <li>✔ I'm a benefit</li>
+      </ul>
+    </div>
+
+    <!-- Duplicate for 2 more -->
+    <div class="pricing-card">
+      <div class="pricing-header">
+        <h3>Standard</h3>
+        <div class="price">$30</div>
+        <p class="duration">Every month</p>
+        <p class="desc">Basic plan for small teams.</p>
+        <p class="valid">Valid for 12 months</p>
+        <button class="get-started-btn">Get Started</button>
+      </div>
+      <ul class="benefits">
+        <li>✔ Basic feature</li>
+        <li>✔ Email support</li>
+        <li>✔ 1 GB Storage</li>
+      </ul>
+    </div>
+
+    <div class="pricing-card">
+      <div class="pricing-header">
+        <h3>Basic</h3>
+        <div class="price">$10</div>
+        <p class="duration">Every month</p>
+        <p class="desc">For personal use only.</p>
+        <p class="valid">Valid for 12 months</p>
+        <button class="get-started-btn">Get Started</button>
+      </div>
+      <ul class="benefits">
+        <li>✔ Limited Access</li>
+        <li>✔ Community Support</li>
+        <li>✔ No Custom Domains</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="wave-bottom-grey">
+  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+    <path d="M0,0 C480,60 960,40 1440,100 L1440,0 L0,0 Z" fill="#f3f3f3"></path>
+  </svg>
+</div>
+
+
+
+                                            <!--last section-->
+
+
+<!-- Hero Section -->
+  <section class="hero1" data-aos="fade-up" data-aos-duration="1000">
+    <div class="hero-content">
+      <h1>Get Ready to Maximize <br />Your Productivity With <br />Our Workflow Solutions</h1>
+      <button class="cta-button" style="background-color: #ffc107;">Get Started</button>
+    </div>
+    <div class="hero-image1">
+      <img src="last-image.png" alt="Workflow illustration" />
+    </div>
+</section>
+                                              <!-- Footer Section -->
+
+  
+<!-- Footer -->
+  <footer class="footer" data-aos="fade-up" data-aos-duration="1000">
+    <div class="footer-container">
+      
+      <!-- Left Column -->
+      <div class="footer-column">
+        <div class="logo1">
+          <img src="yellowplanetdigitalbiglogo-removebg-preview.png" alt="WeDu Logo" />
+          <!-- <div>
+          <h4>YellowPlanet Digital</h4> 
+          <p style="font-style: italic; font-size: small;">Communicate. Collaborate. Create.</p>
+          </div> -->
+        </div>
+        <h3>Contact</h3>
+        <p>Bengaluru<br>Karnataka , India</p>
+        <p><strong>Sales:</strong> info@mysite.com</p>
+        <p><strong>General Inquiries:</strong>75658-25107</p>
+      </div>
+
+      <!-- Middle Column -->
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="terms&cond.html">Terms & Conditions</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Right Column -->
+      <div class="footer-column">
+        <h3>Follow</h3>
+        <p>Sign up to get the latest news on our product.</p>
+<form
+  action="https://formspree.io/f/xwprpopw"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+        <div class="social">
+          <p><strong>LinkedIn</strong></p>
+          <p><strong>YouTube</strong></p>
+          <p><strong>Facebook</strong></p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true // animations play once
+  });
+</script>
+
+</body>
+</html>
